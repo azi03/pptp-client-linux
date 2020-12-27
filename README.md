@@ -6,6 +6,7 @@ pptp客户端的Docker镜像，不需要任何配置文件，只需在环境变�
 
 ````
 docker run -d --privileged --net=host \
+--name pptp-client-linux \
 --env SERVER=xxx.xxx.xxx.xxx \
 --env USERNAME=username \
 --env PASSWORD=password \
